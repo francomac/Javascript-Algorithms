@@ -4,6 +4,8 @@ function caesarCipher(str, num) {
   let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   let newStr = '';
 
+  console.log(lowerStr)
+
   for (let i = 0; i < lowerStr.length; i++) {
     let currentLetter = lowerStr[i];
 

@@ -1,5 +1,5 @@
 function reverseWords(str) {
-  // 'This IS TEXT'
+  // 'This is text'
 
   let strArr = str.split(' '); // ['this', 'is', 'text'] 
   let newStrArr = [];

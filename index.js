@@ -3,7 +3,7 @@ const { harmlessRansomNote } = require('./2-harmless-ransom-note.js')
 const { isPalindrome } = require('./3-palindrome.js')
 const { caesarCipher } = require('./4-caesar-cipher.js')
 const { reverseWords } = require('./5-reverse-words.js')
-
+const { reverseArrayInPlace } = require('./6-reverse-array-in-place')
 console.log('\n\nFizzBuzz Algorithm')
 fizzBuzz(20);
 
@@ -18,10 +18,14 @@ console.log(isPalindrome("Race Car"));
 console.log(isPalindrome("Coding Javascript"));
 
 console.log('\n\nCaesar Cipher Algorithm')
-console.log(caesarCipher("Zoo Keeper", 2)); // Bqq Mggrgt
-console.log(caesarCipher("Big Car", -16)); // Lsq Mkb
-console.log(caesarCipher("Javascript", -900)); // Tkfkcmbszd
+console.log(caesarCipher("\nZoo Keeper", 2)); // Bqq Mggrgt
+console.log(caesarCipher("\nBig Car", -16)); // Lsq Mkb
+console.log(caesarCipher("\nJavascript", -900)); // Tkfkcmbszd
 
 console.log('\n\nReverse Words Algorithm')
 console.log(reverseWords("Madam I'm Adam"))
 console.log(reverseWords("Coding Javascript"))
+
+
+console.log('\n\nReverse Array In Place Algorithm')
+console.log(reverseArrayInPlace([4,3,1,2]))
