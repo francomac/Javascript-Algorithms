@@ -5,8 +5,7 @@ const { caesarCipher } = require('./4-caesar-cipher.js')
 const { reverseWords } = require('./5-reverse-words.js')
 const { reverseArrayInPlace } = require('./6-reverse-array-in-place.js')
 const { getMeanMedianMode } = require('./7-mean-median-mode.js')
-
-
+const { twoSum } = require('./8-two-sum.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -31,10 +30,12 @@ console.log('\n\nReverse Words Algorithm')
 console.log(reverseWords("Madam I'm Adam"))
 console.log(reverseWords("Coding Javascript"))
 
-
 console.log('\n\nReverse Array In Place Algorithm')
 console.log(reverseArrayInPlace([4,3,1,2]))
 
-
 console.log('\n\nMean Median Mode Algorithm')
 console.log(getMeanMedianMode([1,2,3,4,5,4,6,1])); // mean: 3.24, mediam = 3.5, mode: [1,4]
+
+console.log('\n\nTwo Sum Algorithm')
+console.log(twoSum([1,6,4,5,3,3], 7)); // [[1,6],[3,4],[3,4]]
+console.log(twoSum([40, 11, 19, 17, -12], 28)); // [[17, 11],[-12, 40]]
