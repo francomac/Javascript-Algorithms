@@ -5,9 +5,9 @@ function harmlessRansomNote(noteText, magazineText) {
 
   // creating a hash table { word: num-times }
   magazineArr.forEach(word => {
-    // its word not present in obj
+    // its word not present in obj with this word
     if (!magazineObj[word]) magazineObj[word] = 0;
-    // its word present in obj
+    // its word present in obj so add a num
     magazineObj[word]++
   })
 

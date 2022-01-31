@@ -3,7 +3,12 @@ const { harmlessRansomNote } = require('./2-harmless-ransom-note.js')
 const { isPalindrome } = require('./3-palindrome.js')
 const { caesarCipher } = require('./4-caesar-cipher.js')
 const { reverseWords } = require('./5-reverse-words.js')
-const { reverseArrayInPlace } = require('./6-reverse-array-in-place')
+const { reverseArrayInPlace } = require('./6-reverse-array-in-place.js')
+const { getMeanMedianMode } = require('./7-mean-median-mode.js')
+
+
+
+
 console.log('\n\nFizzBuzz Algorithm')
 fizzBuzz(20);
 
@@ -29,3 +34,7 @@ console.log(reverseWords("Coding Javascript"))
 
 console.log('\n\nReverse Array In Place Algorithm')
 console.log(reverseArrayInPlace([4,3,1,2]))
+
+
+console.log('\n\nMean Median Mode Algorithm')
+console.log(getMeanMedianMode([1,2,3,4,5,4,6,1])); // mean: 3.24, mediam = 3.5, mode: [1,4]
