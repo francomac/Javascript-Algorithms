@@ -7,6 +7,7 @@ const { reverseArrayInPlace } = require('./6-reverse-array-in-place.js')
 const { getMeanMedianMode } = require('./7-mean-median-mode.js')
 const { twoSum } = require('./8-two-sum.js')
 const { binarySearch } = require('./9-binary-search.js')
+const { fibonacci } = require('./10-fibonacci.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -45,3 +46,9 @@ console.log('\n\nBinary Search Algorithm')
 console.log(binarySearch([5,7,12,16,36,39,42,56,71], 56)) // true
 console.log(binarySearch([5,7,12,16,36,39,42,56,71], 5)) // true
 console.log(binarySearch([5,7,12,16,36,39,42,56,71], 100)) // false
+
+
+console.log('\n\nFibonacci Algorithm')
+console.log(fibonacci(4)) // 3
+console.log(fibonacci(9)) // 34
+console.log(fibonacci(20)) // 6765
