@@ -8,6 +8,7 @@ const { getMeanMedianMode } = require('./7-mean-median-mode.js')
 const { twoSum } = require('./8-two-sum.js')
 const { binarySearch } = require('./9-binary-search.js')
 const { fibonacci } = require('./10-fibonacci.js')
+const { fibMemo } = require('./11-fibonacci-memoized.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -51,4 +52,13 @@ console.log(binarySearch([5,7,12,16,36,39,42,56,71], 100)) // false
 console.log('\n\nFibonacci Algorithm')
 console.log(fibonacci(4)) // 3
 console.log(fibonacci(9)) // 34
-console.log(fibonacci(20)) // 6765
+console.log(fibMemo(15)) // 610
+// console.log(fibonacci(50)) // THIS WILL CRASH
+// console.log(fibonacci(1000)) // THIS WILL CRASH
+
+console.log('\n\nFibonacci Memoized Algorithm')
+// console.log(fibMemo(4)) // 3
+console.log(fibMemo(9)) // 34
+// console.log(fibMemo(15)) // 610
+// console.log(fibMemo(50)) // THIS WILL WORKS => 12586269025
+// console.log(fibMemo(1000)) // THIS WILL WORKS => 4.346655768693743e+208

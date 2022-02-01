@@ -1,4 +1,5 @@
 function fibonacci(position) {
+  // O (n): linear
   // let sequence = []
 
   // for (let i = 0; i <= position; i++) {
@@ -10,6 +11,7 @@ function fibonacci(position) {
   // console.log(sequence)
   // console.log(sequence[position])
 
+  // O (2^n): exponential
   if (position < 3) return 1
   else return fibonacci(position - 1) + fibonacci(position - 2)
 
