@@ -10,6 +10,7 @@ const { binarySearch } = require('./9-binary-search.js')
 const { fibonacci } = require('./10-fibonacci.js')
 const { fibMemo } = require('./11-fibonacci-memoized.js')
 const { sieveOfEratosthenes } = require('./12-sieve-of-eratosthenes.js')
+const { bubbleSort } = require('./13-bubble-sort.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -65,6 +66,10 @@ console.log(fibMemo(9)) // 34
 // console.log(fibMemo(1000)) // THIS WILL WORKS => 4.346655768693743e+208
 
 
-
 console.log('\n\Sieve of Eratosthenes Algorithm')
-console.log(sieveOfEratosthenes(9)) //
+console.log(sieveOfEratosthenes(9)) // [2 ,3 ,5 ,7]
+
+
+console.log('\n\Bubble Sort')
+console.log(bubbleSort([23,6,8,23,74,7,1])) // [1,6,7,8,23,23,74]
+console.log(bubbleSort([-2,16,83,23,54,72,01])) // [-2,  1, 16, 23, 54, 72, 83]
