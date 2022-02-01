@@ -12,6 +12,7 @@ const { fibMemo } = require('./11-fibonacci-memoized.js')
 const { sieveOfEratosthenes } = require('./12-sieve-of-eratosthenes.js')
 const { bubbleSort } = require('./13-bubble-sort.js')
 const { mergeSort } = require('./14-merge-sort.js')
+const { maxStockProfit } = require('./15-max-stock-profit.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -78,3 +79,8 @@ console.log(bubbleSort([-2,16,83,23,54,72,01])) // [-2,  1, 16, 23, 54, 72, 83]
 
 console.log('\n\Merge Sort')
 console.log(mergeSort([6000, 34, 203, 3, 746, 200, 984, 198,764, 1,9,1])) // [1,   1,   3,    9,   34, 198, 200,  203,746, 764, 984, 6000]
+
+
+console.log('\n\Max Stock Profit')
+console.log('Max Buy Price: ', maxStockProfit([32, 46, 26, 38, 40, 48, 42])) // 22
+console.log('Max Buy Price: ', maxStockProfit([10, 18, 4, 9, 6, 16, 12])) // 12
