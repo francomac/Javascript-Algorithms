@@ -11,6 +11,7 @@ const { fibonacci } = require('./10-fibonacci.js')
 const { fibMemo } = require('./11-fibonacci-memoized.js')
 const { sieveOfEratosthenes } = require('./12-sieve-of-eratosthenes.js')
 const { bubbleSort } = require('./13-bubble-sort.js')
+const { mergeSort } = require('./14-merge-sort.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -73,3 +74,7 @@ console.log(sieveOfEratosthenes(9)) // [2 ,3 ,5 ,7]
 console.log('\n\Bubble Sort')
 console.log(bubbleSort([23,6,8,23,74,7,1])) // [1,6,7,8,23,23,74]
 console.log(bubbleSort([-2,16,83,23,54,72,01])) // [-2,  1, 16, 23, 54, 72, 83]
+
+
+console.log('\n\Merge Sort')
+console.log(mergeSort([6000, 34, 203, 3, 746, 200, 984, 198,764, 1,9,1])) // [1,   1,   3,    9,   34, 198, 200,  203,746, 764, 984, 6000]
