@@ -6,6 +6,7 @@ const { reverseWords } = require('./5-reverse-words.js')
 const { reverseArrayInPlace } = require('./6-reverse-array-in-place.js')
 const { getMeanMedianMode } = require('./7-mean-median-mode.js')
 const { twoSum } = require('./8-two-sum.js')
+const { binarySearch } = require('./9-binary-search.js')
 
 
 console.log('\n\nFizzBuzz Algorithm')
@@ -39,3 +40,8 @@ console.log(getMeanMedianMode([1,2,3,4,5,4,6,1])); // mean: 3.24, mediam = 3.5, 
 console.log('\n\nTwo Sum Algorithm')
 console.log(twoSum([1,6,4,5,3,3], 7)); // [[1,6],[3,4],[3,4]]
 console.log(twoSum([40, 11, 19, 17, -12], 28)); // [[17, 11],[-12, 40]]
+
+console.log('\n\nBinary Search Algorithm')
+console.log(binarySearch([5,7,12,16,36,39,42,56,71], 56)) // true
+console.log(binarySearch([5,7,12,16,36,39,42,56,71], 5)) // true
+console.log(binarySearch([5,7,12,16,36,39,42,56,71], 100)) // false
